@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Nunito',
+        sans-serif;
+    font-size: 72px;
+}
+
+p {
+    font-family: 'Nunito',
+        sans-serif;
+}
+
+.home-icon {
+    color: blue;
+    font-size: 50px;
+}
