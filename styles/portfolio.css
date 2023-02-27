@@ -1,15 +1,26 @@
-h1 {
-    font-family: 'Nunito',
-        sans-serif;
-    font-size: 72px;
-}
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
     font-family: 'Nunito',
         sans-serif;
 }
 
-.home-icon {
-    color: blue;
-    font-size: 50px;
+h1 {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+
+.hero {
+    background: #E5E5E5;
+    text-align: center;
+    padding: 200px 20px;
 }
