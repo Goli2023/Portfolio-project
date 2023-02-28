@@ -16,11 +16,16 @@ p {
 
 h1 {
     font-weight: bold;
-    font-size: 72px;
+    font-size: 54px;
+    line-height: 2;
 }
 
 h2 {
     font-weight: bold;
+}
+
+p {
+    line-height: 2;
 }
 
 
@@ -28,4 +33,14 @@ h2 {
     background: var(--secondary-color);
     text-align: center;
     padding: 200px 20px;
+}
+
+.goli-photo {
+    width: 500px;
+    border-radius: 500px;
+}
+
+.about-me {
+    margin-top: 80px;
+    font-size: 24px;
 }
