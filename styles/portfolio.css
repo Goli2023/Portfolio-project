@@ -2,6 +2,7 @@
     --font-family: 'Nunito',
         sans-serif;
     --secondary-color: #E5E5E5;
+    --primary-color: #31D2F2;
 }
 
 h1,
@@ -43,4 +44,23 @@ p {
 .about-me {
     margin-top: 80px;
     font-size: 24px;
+}
+
+.my-skills {
+    background: var(--secondary-color);
+    padding: 50px 20px;
+}
+
+.button {
+    background: var(--primary-color);
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background: white;
+    color: var(--primary-color);
+    border: 2px solid #31D2F2;
 }
