@@ -23,6 +23,7 @@ h1 {
 
 h2 {
     font-weight: bold;
+    text-align: center;
 }
 
 p {
@@ -63,4 +64,23 @@ p {
     background: white;
     color: var(--primary-color);
     border: 2px solid #31D2F2;
+}
+
+@media (max-width:900px) {
+    .hero {
+        padding: 60px;
+    }
+
+    h1 {
+        line-height: 1.5;
+        font-size: 32px;
+    }
+
+    .about-me {
+        font-size: 20px;
+    }
+
+    .button {
+        margin-bottom: 50px;
+    }
 }
