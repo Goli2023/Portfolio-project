@@ -66,6 +66,10 @@ p {
     border: 2px solid #31D2F2;
 }
 
+.coding-projects {
+    margin-top: 200px;
+}
+
 @media (max-width:900px) {
     .hero {
         padding: 60px;
