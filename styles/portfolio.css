@@ -77,7 +77,16 @@ p {
 
 .title {
     background: var(--secondary-color);
-    padding: 50px
+    padding: 50px 20px;
+}
+
+.photo-skills {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.content-skills {
+    margin-top: 80px;
 }
 
 @media (max-width:900px) {
