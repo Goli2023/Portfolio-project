@@ -119,6 +119,25 @@ nav a:hover {
     text-align: center;
 }
 
+.footer {
+    margin-top: 80px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    margin: 30px 5px;
+}
+
+.social-media {
+    background: #31D2F2;
+}
+
+.social-media a:hover {
+    color: white;
+}
+
 @media (max-width:900px) {
     .hero {
         padding: 60px;
