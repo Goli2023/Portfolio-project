@@ -31,7 +31,12 @@ p {
 }
 
 nav {
+    position: fixed;
+    background: #31D2F2;
     padding: 20px 0;
+    margin: 0;
+    top: 0;
+    width: 100%;
 }
 
 nav ul {
@@ -52,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--primary-color)
+    color: white;
 }
 
 
